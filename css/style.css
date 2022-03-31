@@ -382,7 +382,8 @@ body{
     padding: 13px 43px;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
-    transition: all 1.2s;
+    transition-timing-function: linear;
+    transition: all 2.4s linear;
     font-size: 15px;
     color: #FEFEFE;
     margin-left: 20px; 
@@ -552,7 +553,7 @@ ul {
     text-align: center;
     background: rgba(255, 255, 255, 0.25);
     border-radius: 15px;
-    padding-top: 10px;
+    padding-top: 12px;
     font-family: Poppins;
     font-style: normal;
     font-weight: 500;
